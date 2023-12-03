@@ -1,2 +1,2 @@
-# universal-sanitizer
-💎 Isomorphic html sanitizer by DOMPurify + sanitize-html
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
