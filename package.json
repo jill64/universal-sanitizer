@@ -38,7 +38,7 @@
     "format": "npx prettier -w ."
   },
   "devDependencies": {
-    "@jill64/eslint-config-ts": "0.1.5",
+    "@jill64/eslint-config-ts": "0.1.6",
     "@jill64/prettier-config": "0.0.2",
     "typescript": "5.3.2"
   },
