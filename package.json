@@ -26,7 +26,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
+  "keywords": [
+    "dom",
+    "html",
+    "isomorphic",
+    "sanitizer",
+    "xss"
+  ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
     "build": "tsc && npx publint",
