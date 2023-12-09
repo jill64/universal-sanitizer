@@ -1,7 +1,7 @@
 {
   "name": "@jill64/universal-sanitizer",
   "description": "💎 Isomorphic html sanitizer by DOMPurify + sanitize-html",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
@@ -9,9 +9,7 @@
   "bugs": "https://github.com/jill64/universal-sanitizer/issues",
   "homepage": "https://github.com/jill64/universal-sanitizer#readme",
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     ".": {
@@ -28,7 +26,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
+  "keywords": [
+    "dom",
+    "html",
+    "isomorphic",
+    "sanitizer",
+    "xss"
+  ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
     "build": "tsc && npx publint",

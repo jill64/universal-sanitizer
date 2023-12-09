@@ -6,10 +6,31 @@
 
 💎 Isomorphic html sanitizer by DOMPurify + sanitize-html
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Installation
 
 ```sh
 npm i @jill64/universal-sanitizer
 ```
 
-<!----- END GHOST DOCS HEADER ----->
+## Usage
+
+Conditional Export applies the appropriate file at each runtime.
+
+```js
+import { sanitize } from '@jill64/universal-sanitizer'
+
+const cleaned = sanitize(/* ... */, {
+  // options: {
+  //   sanitizeHtml: sanitize-html options
+  //   dompurify: DOMPurify options
+  // }
+})
+```
+
+| condition | resolve         |
+| --------- | --------------- |
+| `browser` | `DOMPurify`     |
+| `default` | `sanitize-html` |
+| `worker`  | `sanitize-html` |
