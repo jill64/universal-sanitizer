@@ -29,8 +29,8 @@ const cleaned = sanitize(/* ... */, {
 })
 ```
 
-| condition | resolve         |
-| --------- | --------------- |
-| `browser` | [`DOMPurify`](https://github.com/cure53/DOMPurify#readme)     |
+| condition | resolve                                                                  |
+| --------- | ------------------------------------------------------------------------ |
+| `browser` | [`DOMPurify`](https://github.com/cure53/DOMPurify#readme)                |
 | `default` | [`sanitize-html`](https://github.com/apostrophecms/sanitize-html#readme) |
 | `worker`  | [`sanitize-html`](https://github.com/apostrophecms/sanitize-html#readme) |
