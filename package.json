@@ -9,9 +9,7 @@
   "bugs": "https://github.com/jill64/universal-sanitizer/issues",
   "homepage": "https://github.com/jill64/universal-sanitizer#readme",
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     ".": {
