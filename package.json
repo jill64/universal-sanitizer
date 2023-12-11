@@ -5,7 +5,12 @@
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/universal-sanitizer/issues",
   "homepage": "https://github.com/jill64/universal-sanitizer#readme",
   "files": [
@@ -21,7 +26,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/universal-sanitizer.git"
+    "url": "https://github.com/jill64/universal-sanitizer.git",
+    "image": "https://opengraph.githubassets.com/4d40a04faea93fff7021a830f4f1c081554cde14def6e321e82d1b88c430345f/jill64/universal-sanitizer"
   },
   "publishConfig": {
     "access": "public"
