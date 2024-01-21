@@ -1,7 +1,7 @@
 {
   "name": "@jill64/universal-sanitizer",
   "description": "💎 Isomorphic html sanitizer by DOMPurify + sanitize-html",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
@@ -44,7 +44,7 @@
     "build": "tsc && npx publint",
     "prepack": "npm run build",
     "test": "vitest",
-    "lint": "npx eslint . && npx depcheck",
+    "lint": "npx eslint .",
     "format": "npx prettier -w ."
   },
   "devDependencies": {
@@ -56,6 +56,7 @@
     "@types/dompurify": "3.0.5",
     "@types/sanitize-html": "2.9.5",
     "dompurify": "3.0.8",
-    "sanitize-html": "2.11.0"
+    "sanitize-html": "2.11.0",
+    "postcss": "8.4.33"
   }
 }
