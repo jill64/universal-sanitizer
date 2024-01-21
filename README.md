@@ -2,11 +2,11 @@
 
 # @jill64/universal-sanitizer
 
+
 <!----- BEGIN GHOST DOCS BADGES ----->
-
 <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/v/@jill64/universal-sanitizer" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/l/@jill64/universal-sanitizer" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/dm/@jill64/universal-sanitizer" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/bundlephobia/min/@jill64/universal-sanitizer" alt="npm-min-size" /></a>
-
 <!----- END GHOST DOCS BADGES ----->
+
 
 💎 Isomorphic html sanitizer by DOMPurify + sanitize-html
 
