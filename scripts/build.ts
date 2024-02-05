@@ -1,4 +1,5 @@
 import { build } from 'esbuild'
+import { cp } from 'node:fs/promises'
 
 build({
   platform: 'browser',
@@ -8,3 +9,5 @@ build({
   minify: true,
   outfile: 'dist/worker.js'
 })
+
+cp('dist/server.d.ts', 'dist/worker.d.ts')

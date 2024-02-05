@@ -41,7 +41,7 @@
   ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
-    "build": "build:worker && tsc && npx publint",
+    "build": "tsc && npm run build:worker && npx publint",
     "build:worker": "npx tsx scripts/build.ts",
     "prepack": "npm run build",
     "test": "vitest",
@@ -51,6 +51,7 @@
   "devDependencies": {
     "@jill64/eslint-config-ts": "1.0.16",
     "@jill64/prettier-config": "1.0.0",
+    "@types/node": "20.11.16",
     "esbuild": "0.20.0",
     "typescript": "5.3.3"
   },
