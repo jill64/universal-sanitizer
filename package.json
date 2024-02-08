@@ -44,16 +44,19 @@
     "build": "tsc && npm run build:worker && npx publint",
     "build:worker": "npx tsx scripts/build.ts",
     "prepack": "npm run build",
-    "test": "vitest",
+    "test": "npm run build && vitest",
     "lint": "npx eslint .",
     "format": "npx prettier -w ."
   },
   "devDependencies": {
+    "@edge-runtime/vm": "3.1.8",
     "@jill64/eslint-config-ts": "1.1.0",
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "20.11.16",
     "esbuild": "0.20.0",
-    "typescript": "5.3.3"
+    "jsdom": "24.0.0",
+    "typescript": "5.3.3",
+    "vitest": "1.2.2"
   },
   "dependencies": {
     "@types/dompurify": "3.0.5",
