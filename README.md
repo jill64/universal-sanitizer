@@ -4,7 +4,7 @@
 
 <!----- BEGIN GHOST DOCS BADGES ----->
 
-<a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/v/@jill64/universal-sanitizer" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/l/@jill64/universal-sanitizer" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/dm/@jill64/universal-sanitizer" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/bundlephobia/min/@jill64/universal-sanitizer" alt="npm-min-size" /></a>
+<a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/v/@jill64/universal-sanitizer" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/l/@jill64/universal-sanitizer" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/npm/dm/@jill64/universal-sanitizer" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/universal-sanitizer"><img src="https://img.shields.io/bundlephobia/min/@jill64/universal-sanitizer" alt="npm-min-size" /></a> <a href="https://github.com/jill64/universal-sanitizer/actions/workflows/ci.yml"><img src="https://github.com/jill64/universal-sanitizer/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a>
 
 <!----- END GHOST DOCS BADGES ----->
 
@@ -43,6 +43,6 @@ const cleaned = sanitize(/* ... */, {
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 <!----- END GHOST DOCS FOOTER ----->
