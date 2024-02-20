@@ -61,7 +61,7 @@
   "dependencies": {
     "@types/dompurify": "3.0.5",
     "@types/sanitize-html": "2.11.0",
-    "dompurify": "3.0.8",
+    "dompurify": "3.0.9",
     "sanitize-html": "2.11.0"
   }
 }
