@@ -1,7 +1,7 @@
 {
   "name": "@jill64/universal-sanitizer",
   "description": "💎 Isomorphic html sanitizer by DOMPurify + sanitize-html",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
@@ -62,6 +62,6 @@
     "@types/dompurify": "3.0.5",
     "@types/sanitize-html": "2.11.0",
     "dompurify": "3.0.10",
-    "sanitize-html": "2.12.1"
+    "sanitize-html": "2.13.0"
   }
 }
