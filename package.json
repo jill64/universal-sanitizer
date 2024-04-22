@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "intents.turrets0h@icloud.com",
+    "email": "contact@jill64.dev",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@edge-runtime/vm": "3.2.0",
-    "@jill64/eslint-config-ts": "1.1.18",
+    "@jill64/eslint-config-ts": "1.1.19",
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "20.12.7",
     "esbuild": "0.20.2",
