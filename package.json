@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@edge-runtime/vm": "3.2.0",
-    "@jill64/eslint-config-ts": "1.1.18",
+    "@jill64/eslint-config-ts": "1.1.19",
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "20.12.7",
     "esbuild": "0.20.2",
