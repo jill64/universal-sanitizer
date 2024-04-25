@@ -56,7 +56,7 @@
     "esbuild": "0.20.2",
     "jsdom": "24.0.0",
     "typescript": "5.4.5",
-    "vitest": "1.5.1"
+    "vitest": "1.5.2"
   },
   "dependencies": {
     "@types/dompurify": "3.0.5",
