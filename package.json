@@ -52,7 +52,7 @@
     "@edge-runtime/vm": "3.2.0",
     "@jill64/eslint-config-ts": "1.1.26",
     "@jill64/prettier-config": "1.0.0",
-    "@types/node": "20.14.2",
+    "@types/node": "20.14.7",
     "esbuild": "0.21.5",
     "jsdom": "24.1.0",
     "typescript": "5.5.2",
