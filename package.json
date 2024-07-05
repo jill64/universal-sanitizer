@@ -1,7 +1,7 @@
 {
   "name": "@jill64/universal-sanitizer",
   "description": "💎 Isomorphic html sanitizer by DOMPurify + sanitize-html",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/universal-sanitizer.git",
-    "image": "https://opengraph.githubassets.com/ec237bb179d7ec62d204f336674df6caaf4eec4fff83c82d95b91865c14f94b9/jill64/universal-sanitizer"
+    "image": "https://opengraph.githubassets.com/55769ecb1c6c702fba774793a9cdd8972c378500c131c745d41455e0e0442342/jill64/universal-sanitizer"
   },
   "publishConfig": {
     "access": "public"
@@ -61,7 +61,7 @@
   "dependencies": {
     "@types/dompurify": "3.0.5",
     "@types/sanitize-html": "2.11.0",
-    "dompurify": "3.1.5",
+    "dompurify": "3.1.6",
     "sanitize-html": "2.13.0"
   }
 }
