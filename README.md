@@ -39,6 +39,29 @@ const cleaned = sanitize(/* ... */, {
 | `default` | [`sanitize-html`](https://github.com/apostrophecms/sanitize-html#readme) |
 | `worker`  | [`sanitize-html`](https://github.com/apostrophecms/sanitize-html#readme) |
 
+## Add DOMPurify hook
+
+The hook is executed before sanitize
+
+```js
+import { sanitize } from '@jill64/universal-sanitizer'
+
+const cleaned = sanitize(/* ... */, {
+  options: {
+    hook: (DOMPurify) => {
+      DOMPurify.addHook(
+        'uponSanitizeAttribute',
+        function (currentNode, hookEvent, config) {
+          // Do something with the current node
+          // You can also mutate hookEvent for current node (i.e. set hookEvent.forceKeepAttr = true)
+          // For other than 'uponSanitizeAttribute' hook types hookEvent equals to null
+        }
+      )
+    }
+  }
+})
+```
+
 <!----- BEGIN GHOST DOCS FOOTER ----->
 
 ## License
