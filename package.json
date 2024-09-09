@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/universal-sanitizer.git",
-    "image": "https://opengraph.githubassets.com/fc7acca6414da520c4c48f783717121b7b1d88c9a36d7f5a7143e37a1c7c7b8e/jill64/universal-sanitizer"
+    "image": "https://opengraph.githubassets.com/2a4a5b854d9fb2fb8db6b4c02fc60071955aabb80c32f9635a0d5a465843ba21/jill64/universal-sanitizer"
   },
   "publishConfig": {
     "access": "public"
