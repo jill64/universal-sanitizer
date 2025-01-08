@@ -59,7 +59,6 @@
     "vitest": "2.1.8"
   },
   "dependencies": {
-    "@types/dompurify": "3.2.0",
     "@types/sanitize-html": "2.13.0",
     "dompurify": "3.2.3",
     "sanitize-html": "2.14.0"
