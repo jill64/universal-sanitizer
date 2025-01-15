@@ -54,7 +54,7 @@
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "22.10.6",
     "esbuild": "0.24.2",
-    "jsdom": "25.0.1",
+    "jsdom": "26.0.0",
     "typescript": "5.7.2",
     "vitest": "2.1.8"
   },
