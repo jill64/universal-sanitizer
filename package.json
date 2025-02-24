@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/universal-sanitizer.git",
-    "image": "https://opengraph.githubassets.com/7784e1f7a280006a091dfb8d8c97b5cfe7b227e7c0f909fb615409fa87554a7e/jill64/universal-sanitizer"
+    "image": "https://opengraph.githubassets.com/86a92b829fa5be05f9634dbc175fcd8608b2547b4daaab64c408b765c267cbbf/jill64/universal-sanitizer"
   },
   "publishConfig": {
     "access": "public"
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@edge-runtime/vm": "5.0.0",
-    "@jill64/eslint-config-ts": "2.0.11",
+    "@jill64/eslint-config-ts": "2.0.12",
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "22.13.5",
     "esbuild": "0.25.0",
